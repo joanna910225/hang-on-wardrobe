@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Hang On",
+    "slug": "hang-on-wardrobe",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.hangon.wardrobe"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Hang On uses your photos to add clothing to your private wardrobe.",
+          "cameraPermission": "Hang On uses your camera to check how a new piece fits your wardrobe.",
+          "microphonePermission": false
+        }
+      ],
+      "expo-font",
+      "expo-sqlite"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
