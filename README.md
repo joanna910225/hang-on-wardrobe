@@ -2,6 +2,16 @@
 
 Hang On is a wardrobe-fit companion for the moment before a purchase. It helps someone see whether a new piece works with what they already own, how many outfits it unlocks, and whether an existing outfit can create the same feeling.
 
+## Screenshots
+
+| Onboarding | Home | Check a new find |
+| --- | --- | --- |
+| ![Guided starter closet setup](docs/screenshots/onboarding.png) | ![Hang On home screen](docs/screenshots/home.png) | ![Check a new find screen](docs/screenshots/check.png) |
+
+| Wardrobe | History | Match result |
+| --- | --- | --- |
+| ![Saved wardrobe pieces](docs/screenshots/wardrobe.png) | ![Past wardrobe-fit checks](docs/screenshots/history.png) | ![Wardrobe-fit result and score](docs/screenshots/result.png) |
+
 ## Working alpha
 
 - Guided setup for 4 tops, 3 bottoms, 2 pairs of shoes, and 2 outerwear pieces
